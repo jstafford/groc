@@ -1,15 +1,12 @@
 {
   "name":        "groc",
-  "version":     "0.8.0",
+  "version":     "1.0.0",
   "description": "Documentation generation, in the spirit of literate programming.",
   "keywords":   ["documentation", "docs", "generator"],
   "homepage":    "http://nevir.github.com/groc/",
   "author":      "Ian MacLeod <ian@nevir.net> (https://github.com/nevir)",
 
-  "licenses": [{
-    "type": "MIT",
-    "url":  "https://github.com/nevir/groc/MIT-LICENSE.txt"
-  }],
+  "license": "MIT",
 
   "repository": {
     "type": "git",
@@ -25,21 +22,21 @@
   },
 
   "engines": {
-    "node": ">= 0.8"
+    "node": ">=0.10.0"
   },
   "dependencies": {
-    "coffee-script": "^1.6.3",
-    "colors": "^0.6.2",
-    "fs-tools": "^0.2.10",
-    "glob": "^3.2.7",
-    "highlight.js": "^8.0.0",
-    "jade": "^0.35.0",
-    "marked": "^0.2.10",
-    "optimist": "^0.6.0",
-    "showdown": "^0.3.1",
+    "coffee-script": "^1.11.1",
+    "colors": "^1.1.2",
+    "fs-tools": "^0.3.0",
+    "glob": "^7.1.0",
+    "highlight.js": "^9.7.0",
+    "pug": "^2.0.0-beta6",
+    "marked": "^0.3.6",
+    "optimist": "^0.6.1",
+    "showdown": "^1.4.3",
     "spate": "^0.1.0",
-    "uglify-js": "^2.4.6",
-    "underscore": "^1.6.0"
+    "uglify-js": "^2.7.3",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {},
 
