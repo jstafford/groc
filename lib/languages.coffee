@@ -22,7 +22,7 @@ module.exports = LANGUAGES =
     singleLineComment: ['//']
     ignorePrefix:      '}'
     foldPrefix:        '^'
-    
+
   CSS:
     nameMatchers:      ['.css']
     pygmentsLexer:     'css'
@@ -138,10 +138,10 @@ module.exports = LANGUAGES =
     multiLineComment:  ['<!--', '', '-->']
     ignorePrefix:      '}'
     foldPrefix:        '^'
-    
-  Jade:
-    nameMatchers:      ['.jade']
-    pygmentsLexer:     'jade'
+
+  Pug:
+    nameMatchers:      ['.pug', '.jade']
+    pygmentsLexer:     'pug'
     # @todo <https://github.com/isagalaev/highlight.js/pull/250>
     highlightJS:       'AUTO'
     singleLineComment: ['//', '//-']
